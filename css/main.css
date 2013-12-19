@@ -1,0 +1,56 @@
+/* 
+Headings: only use h2(30px), h3(24px), h4(18px), h5(14px)
+
+<p class="text-muted"> Gray
+<p class="text-primary"> Blue
+<p class="text-success"> Green
+<p class="text-info"> Navy Blue
+<p class="text-warning"> Orange
+<p class="text-danger"> Red
+
+*/
+
+/*
+Single column contianer
+*/
+.column{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+
+.tile {
+	text-align: center;
+}
+
+.tile.light-blue {
+	background-color: rgb(66, 139, 166);
+}
+
+.tile.navy-blue {
+	background-color: rgba(21, 66, 88, 0.8);
+}
+.tile .simple-icon {
+	color: white;
+	font-size: 6em;
+}
+.tile .simple-text {
+	color: #CCCCCC;
+	text-align: center;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) {
+
+}
